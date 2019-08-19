@@ -1,8 +1,12 @@
 "use strict";
 
-var usuario = {
-  nome: "Tiago"
-};
-usuario.nome = "Neuso"; // const possibilita mutação do objeto
+function teste(x) {
+  var y = 2;
 
-console.log(usuario.nome);
+  if (x > 5) {
+    console.log(x, y);
+  }
+}
+
+console.log(y);
+teste(10);

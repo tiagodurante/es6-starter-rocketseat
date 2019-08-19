@@ -1,7 +1,11 @@
-const usuario = {
-  nome: "Tiago"
-};
+function teste(x) {
+  let y = 2;
 
-usuario.nome = "Neuso"; // const possibilita mutação do objeto
+  if (x > 5) {
+    console.log(x, y);
+  }
+}
 
-console.log(usuario.nome);
+console.log(y);
+
+teste(10);
