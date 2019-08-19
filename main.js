@@ -17,3 +17,9 @@ const filter = arr.filter(item => {
 });
 
 console.log(filter);
+
+const find = arr.find(item => {
+  return item === 7;
+});
+
+console.log(find);
