@@ -1,12 +1,7 @@
 "use strict";
 
-function teste(x) {
-  var y = 2;
-
-  if (x > 5) {
-    console.log(x, y);
-  }
-}
-
-console.log(y);
-teste(10);
+var arr = [1, 2, 3, 4, 5, 6, 8];
+var newArr = arr.map(function (item, index) {
+  return item * 2;
+});
+console.log(newArr);

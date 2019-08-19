@@ -1,11 +1,7 @@
-function teste(x) {
-  let y = 2;
+const arr = [1, 2, 3, 4, 5, 6, 8];
 
-  if (x > 5) {
-    console.log(x, y);
-  }
-}
+const newArr = arr.map((item, index) => {
+  return item * 2;
+});
 
-console.log(y);
-
-teste(10);
+console.log(newArr);
