@@ -1,7 +1,7 @@
-class Matematica {
-  static soma(a, b) {
-    return a + b;
-  }
-}
+const usuario = {
+  nome: "Tiago"
+};
 
-console.log(Matematica.soma(1, 4));
+usuario.nome = "Neuso"; // const possibilita mutação do objeto
+
+console.log(usuario.nome);
