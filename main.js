@@ -1,4 +1,23 @@
-const soma = (a = 3, b = 6) => a + b;
+const usuario = {
+  nome: "tiago",
+  idade: "25",
+  endereco: {
+    cidade: "altonia",
+    estado: "paraná"
+  }
+};
 
-console.log(soma(1));
-console.log(soma());
+const {
+  nome,
+  idade,
+  endereco: { cidade }
+} = usuario; // <<< desestruturação
+
+console.log(nome, idade, cidade);
+
+function mostraNome({ nome }) {
+  // <<< desestruturação
+  return nome;
+}
+
+console.log(mostraNome(usuario));
