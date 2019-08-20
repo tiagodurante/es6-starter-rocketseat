@@ -1,7 +1,11 @@
+const idade = "25";
+const nome = "tiago";
+const empresa = "INT";
+
 const usuario = {
-  nome: "tiago",
-  idade: "25",
-  empresa: "INT"
+  nome,
+  idade,
+  empresa
 };
 
-console.log(`Meu nome é ${usuario.nome} e tenho ${usuario.idade} anos`);
+console.log(usuario);
